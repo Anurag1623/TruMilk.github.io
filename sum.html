@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    <title>TRU MILK</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+function add()
+{
+  
+  num1 = parseFloat(document.getElementById("m1").value);
+  num2 = parseFloat(document.getElementById("m2").value);
+  num3 = parseFloat(document.getElementById("m3").value);
+  num4 = parseFloat(document.getElementById("m4").value);
+  num5 = parseFloat(document.getElementById("m5").value);
+  num6 = parseFloat(document.getElementById("m6").value);
+  num7 = parseFloat(document.getElementById("m7").value);
+  num8 = parseFloat(document.getElementById("m8").value);
+  num9 = parseFloat(document.getElementById("m9").value);
+  num10 = parseFloat(document.getElementById("m10").value);
+  num11 = parseFloat(document.getElementById("m11").value);
+  num12 = parseFloat(document.getElementById("m12").value);
+  num13 = parseFloat(document.getElementById("m13").value);
+  num14 = parseFloat(document.getElementById("m14").value);
+  numf1 = parseFloat(document.getElementById("f1").value);
+  numf2 = parseFloat(document.getElementById("f2").value);
+  numf3 = parseFloat(document.getElementById("f3").value);
+  numf4 = parseFloat(document.getElementById("f4").value);
+  numf5 = parseFloat(document.getElementById("f5").value);
+  numf6 = parseFloat(document.getElementById("f6").value);
+  numf7 = parseFloat(document.getElementById("f7").value);
+  numf8 = parseFloat(document.getElementById("f8").value);
+  numf9 = parseFloat(document.getElementById("f9").value);
+  numf10 = parseFloat(document.getElementById("f10").value);
+  numf11 = parseFloat(document.getElementById("f11").value);
+  numf12 = parseFloat(document.getElementById("f12").value);
+  numf13 = parseFloat(document.getElementById("f13").value);
+  numf14 = parseFloat(document.getElementById("f14").value);
+  mrps = parseFloat(document.getElementById("mrp").value);
+sum=((num1*numf1)+(num2*numf2)+(num3*numf3)+(num4*numf4)+(num5*numf5)+(num6*numf6)+(num7*numf7)+(num8*numf8)+(num9*numf9)+(num10*numf10)+(num11*numf11)+(num12*numf12)+(num13*numf13)+(num14*numf14))*((1*mrps)/44);
+qut=(num1+num2+num3+num4+num5+num6+num7+num7+num8+num9+num10+num11+num12+num13+num14);	
+window.alert("final price is"+sum);
+
+  document.getElementById("answer").value = sum;
+  document.getElementById("Quntity").value = qut;
+  
+}
+</script>
+
+</head>
+<style>
+table, th, td {
+  border:1px solid black;
+  background-color:lightgray;
+  }
+  input[type='reset'],
+input[type='submit'] {
+    width: 5rem;
+    justify-self: end;
+}
+
+input[type='reset'] {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+</style>
+<body>
+<form>
+<div>
+<table style="width:70%">
+  <tr>
+    <h1><td><h1>MILK</h1></td>
+    <td><h1>FAT</h1></td>
+  </tr>
+  <tr>
+    <td>DAY MILK<p><input id="m1" value="0"</p></td>
+    <td>DAY FAT<p><input id="f1"value="0"></p></td>
+ 
+  </tr>
+   <tr>
+    <td>EVENING MILK<p><input id="m2"value="0"></p></td>
+    <td>EVENING FAT<p> <input id="f2"value="0"></p></td>
+    
+  </tr>
+  <tr>
+    <td>DAY MILK<p><input id="m3"value="0"></p></td>
+    <td>DAY FAT<p> <input id="f3"value="0"></p></td>
+    </tr>
+   <tr>
+    <td>EVENING MILK<p><input id="m4"value="0"></p></td>
+    <td>EVENING FAT<p><input id="f4"value="0"></p></td>
+     </tr>
+  <tr>
+    <td>DAY MILK<p><input id="m5"value="0"></p></td>
+    <td>DAY FAT<p> <input id="f5"value="0"></p></td>
+    </tr>
+   <tr>
+    <td>EVENING MILK<p><input id="m6"value="0"></p></td>
+    <td>EVENING FAT<p> <input id="f6"value="0"></p></td>
+     </tr>
+  <tr>
+    <td>DAY MILK<p><input id="m7"value="0"></p></td>
+    <td>DAY FAT<p> <input id="f7"value="0"></p></td>
+    </tr>
+   <tr>
+    <td>EVENING MILK<p><input id="m8"value="0"></p></td>
+    <td>EVENING FAT<p> <input id="f8"value="0"></p></td>
+    </tr><tr>
+    <td>DAY MILK<p><input id="m9"value="0"></p></td>
+    <td>DAY FAT<p><input id="f9"value="0"></p></td>
+    </tr>
+   <tr>
+    <td>EVENING MILK<p><input id="m10"value="0"></p></td>
+    <td>EVENING FAT<p><input id="f10"value="0"></p></td>
+    </tr>
+  <tr>
+    <td>DAY MILK<p><input id="m11"value="0"></p></td>
+    <td>DAY FAT<p> <input id="f11"value="0"></p></td>
+    </tr>
+   <tr>
+    <td>EVENING MILK<p><input id="m12"value="0"></p></td>
+    <td>EVENING FAT<p> <input id="f12"value="0"></p></td>
+    </tr>
+  <tr>
+    <td>DAY MILK<p><input id="m13"value="0"></p></td>
+    <td>DAY FAT<p> <input id="f13"value="0"></p></td>
+    </tr>
+   <tr>
+    <td>EVENING MILK<p><input id="m14"value="0"></p></td>
+    <td>EVENING FAT<p> <input id="f14"value="0"></p></td>
+    </tr>
+<tr><td>PRICE=<input id="answer"></td>
+<td><p>Quntity = <input id="Quntity"></p></td>
+</tr>
+
+ <tr>
+ <td><p>Rate of=<input id="mrp"></p><button type="button" class="btn btn-secondary btn-lg" onclick="add()">CALCULATE</button>
+ 
+ <button type="reset" class="btn btn-outline-success" value="Reset">RESET</button>
+<td><button type="button" class="btn btn-secondary btn-lg" onclick="window.print()">SAVE PDF</button>
+
+
+</td>
+</tr>
+ 
+ 
+
+</table>
+</form>
+</div>
+<table><tr><td><button type="button" class="btn btn-outline-danger"><a href="index.html">Home</a></button></td>
+	<td><button type="button" class="btn btn-outline-danger"><a href="fat.html">Milk</a></button</td>
+     
+      <td><button type="button" class="btn btn-outline-danger"><a href="sum.html">Tally</a></button></td>
+</tr>
+</body>
+</html>
+
